@@ -38,6 +38,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CodeOwnersTestApp() {
     var currentDestination by rememberSaveable { mutableStateOf(AppDestinations.HOME) }
+// team2 gaixiu zhuijia
 
     NavigationSuiteScaffold(
         navigationSuiteItems = {
